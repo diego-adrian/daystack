@@ -18,4 +18,10 @@ npm install daystack
 const daystack = require("daystack");
 const response = daystack.formatDate(new Date(), "DD/MM/YYYY");
 console.log(response, "response");
+
+const isValid = daystack.isValid(new Date());
+console.log(isValid, "isValid");
+
+const isWeekend = daystack.isWeekend(new Date());
+console.log(isWeekend, "isWeekend");
 ```
