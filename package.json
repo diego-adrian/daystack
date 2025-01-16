@@ -1,0 +1,28 @@
+{
+  "name": "daystack",
+  "version": "1.0.1",
+  "description": "Este es un paquete combinado con dayjs en la cual vamos a crear al menos 3 metodos que no existen en el paquete dayjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/diego-adrian/daystack.git"
+  },
+  "keywords": [
+    "dayjs",
+    "npm",
+    "momentjs",
+    "nodejs"
+  ],
+  "author": "adrian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diego-adrian/daystack/issues"
+  },
+  "homepage": "https://github.com/diego-adrian/daystack#readme",
+  "dependencies": {
+    "dayjs": "1.11.13"
+  }
+}
